@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://eaibt.valmet.com:7843/EAI/Item_VAL/processItemData?wsdl" uri="wsdl/eaibt.valmet.com_7843/EAI/Item_VAL/processItemData.wsdl"/>
+    <system systemId="https://eaibt.valmet.com:7843/EAI/Item_VAL/processItemData?xsd=xsd0" uri="wsdl/eaibt.valmet.com_7843/EAI/Item_VAL/processItemData.xsd_xsd0.xsd"/>
+    <system systemId="https://v0140a.vstage.co:7843/EAI/ItemCostCalculation_VAL?wsdl" uri="wsdl/v0140a.vstage.co_7843/EAI/ItemCostCalculation_VAL.wsdl"/>
+    <system systemId="https://v0140a.vstage.co:7843/EAI/ItemCostCalculation_VAL?xsd=xsd0" uri="wsdl/v0140a.vstage.co_7843/EAI/ItemCostCalculation_VAL.xsd_xsd0.xsd"/>
+    <system systemId="https://eaibt.valmet.com:7843/EAI/Item_VAL/Rx/processItemBOMData?wsdl" uri="wsdl/eaibt.valmet.com_7843/EAI/Item_VAL/Rx/processItemBOMData.wsdl"/>
+    <system systemId="https://eaibt.valmet.com:7843/EAI/Item_VAL/Rx/processItemBOMData?xsd=xsd0" uri="wsdl/eaibt.valmet.com_7843/EAI/Item_VAL/Rx/processItemBOMData.xsd_xsd0.xsd"/>
+</catalog>

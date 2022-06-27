@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!--File EAI_PROJECTDELIVERABLE_NEWRx_WSDL/com/infor/www/businessinterface/projectdeliverableval/EAI_ProjectDeliverable_VAL.wsdl, application VALMET_PDM_Rx--><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="ProjectDeliverable_VAL" targetNamespace="http://www.infor.com/businessinterface/ProjectDeliverable_VAL" xmlns:bo="http://www.infor.com/businessinterface/ProjectDeliverable_VAL" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <generatedMXSD location="EAI_ProjectDeliverable_VAL_InlineSchema1.mxsd"/>
+        <binding hasEncoding="false" imported="true" name="ProjectDeliverable_VALSoapBinding" originalBindingStyle="rpc"/>
+        <generatedMXSD location="EAI_ProjectDeliverable_VAL.mxsd"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+
+	<wsdl:types>
+			
+        	<xsd:schema targetNamespace="http://www.infor.com/businessinterface/ProjectDeliverable_VAL">
+<xsd:include schemaLocation="https://eaibt.valmet.com:7843/EAI/ProjectDeliverable_VAL/Rx/processProjectdata?xsd=xsd0"/>
+    </xsd:schema>
+    </wsdl:types>
+	
+	<wsdl:message name="createProjectDeliverableRequest">
+		<wsdl:part name="createProjectDeliverableRequest" type="bo:createProjectDeliverableRequestType"/>
+	</wsdl:message>
+	<wsdl:message name="createProjectDeliverableResponse">
+		<wsdl:part name="createProjectDeliverableResponse" type="bo:createProjectDeliverableResponseType"/>
+	</wsdl:message>
+	<wsdl:message name="Result">
+		<wsdl:part element="bo:Result" name="Result"/>
+	</wsdl:message>
+	<wsdl:message name="Header">
+		<wsdl:part element="bo:Activation" name="Activation"/>
+	</wsdl:message>
+
+	<wsdl:portType name="ProjectDeliverable_VAL">
+		<wsdl:operation name="createProjectDeliverable">
+			<wsdl:input message="bo:createProjectDeliverableRequest"/>
+			<wsdl:output message="bo:createProjectDeliverableResponse"/>
+			<wsdl:fault message="bo:Result" name="FaultName"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	
+	<wsdl:binding name="ProjectDeliverable_VALSoapBinding" type="bo:ProjectDeliverable_VAL">
+		<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="createProjectDeliverable">
+			<soap:operation soapAction=""/>						
+			<wsdl:input>
+				<soap:body namespace="http://www.infor.com/businessinterface/ProjectDeliverable_VAL" use="literal"/>
+				<soap:header message="bo:Header" part="Activation" use="literal"/>						
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body namespace="http://www.infor.com/businessinterface/ProjectDeliverable_VAL" use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="FaultName">
+				<soap:fault name="FaultName" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="ProjectDeliverable_VALService">
+		<wsdl:port binding="bo:ProjectDeliverable_VALSoapBinding" name="ProjectDeliverable_VALSoapPort">
+			<soap:address location="https://eaibt.valmet.com:7843/EAI/ProjectDeliverable_VAL/Rx/processProjectdata"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

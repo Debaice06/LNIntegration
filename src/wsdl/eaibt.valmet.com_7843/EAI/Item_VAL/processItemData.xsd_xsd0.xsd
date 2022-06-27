@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><!--File EAI_wsdl_TESTEnv/com/infor/www/businessinterface/itemval/Item_VAL_InlineSchema1.xsd, application PDM_TO_LN--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.infor.com/businessinterface/Item_VAL" xmlns:bo="http://www.infor.com/businessinterface/Item_VAL" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+			<xsd:complexType name="processItemDataRequestType">
+				<xsd:sequence>
+					<xsd:element minOccurs="0" name="ControlArea">
+						<xsd:complexType>
+							<xsd:sequence>								
+								<xsd:element default="request" minOccurs="0" name="processingScope" type="bo:processingScope"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element minOccurs="0" name="DataArea">
+						<xsd:complexType>
+							<xsd:sequence>
+							<xsd:element maxOccurs="1" minOccurs="1" name="MessageID"/>
+								<xsd:element name="Receiver"/>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="Item_VAL">
+									<xsd:complexType>
+										<xsd:sequence>
+											<xsd:element minOccurs="0" name="ItemID">				
+												<xsd:complexType>
+													<xsd:sequence>
+														<xsd:element minOccurs="1" name="ID" type="bo:tcitem"/>
+													</xsd:sequence>
+												</xsd:complexType>				
+											</xsd:element>									
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="description">
+												<xsd:complexType>	
+													<xsd:simpleContent>										
+														<xsd:extension base="xsd:string">
+															<xsd:attribute name="languageID" type="bo:tcmcs.str10" use="optional"/>
+														</xsd:extension>
+													</xsd:simpleContent>										
+												</xsd:complexType>						
+											</xsd:element>
+											<xsd:element minOccurs="0" name="revision" type="bo:tiedm.revi"/>
+											<xsd:element minOccurs="0" name="itemGroup" type="bo:tccitg"/>
+											<xsd:element minOccurs="0" name="itemType" type="bo:tckitm_mandatory"/>
+											<xsd:element minOccurs="0" name="inventoryUnit" type="bo:tccuni"/>
+											<xsd:element minOccurs="0" name="productType" type="bo:tcctyp"/>
+											<xsd:element minOccurs="0" name="productLine">				
+												<xsd:complexType>
+													<xsd:sequence>
+														<xsd:element minOccurs="0" name="ID" type="bo:tcmcs.cpln"/>
+														<xsd:element minOccurs="0" name="lineDescription" type="bo:tcdsca"/>
+													</xsd:sequence>
+												</xsd:complexType>				
+											</xsd:element>									
+											<xsd:element minOccurs="0" name="productClass">				
+												<xsd:complexType>
+													<xsd:sequence>
+														<xsd:element minOccurs="0" name="ID" type="bo:tcmcs.cpcl"/>
+														<xsd:element minOccurs="0" name="classDescription" type="bo:tcdsca"/>
+													</xsd:sequence>
+												</xsd:complexType>				
+											</xsd:element>									
+											<xsd:element minOccurs="0" name="purchaseStatisticsGroup" type="bo:tcitem"/>
+											<xsd:element minOccurs="0" name="sourceItem" type="bo:tcitem"/>
+											<xsd:element minOccurs="0" name="signal" type="bo:tccsig"/>
+											<xsd:element minOccurs="0" name="commodityCode" type="bo:tcccde"/>
+											<xsd:element minOccurs="0" name="commodityCodeUS" type="bo:tcccde"/>
+											<xsd:element minOccurs="0" name="commodityCodeCH" type="bo:tcccde"/>
+											<xsd:element minOccurs="0" name="weight" type="bo:tcwght"/>
+											<xsd:element minOccurs="0" name="weightUnit" type="bo:tccuni"/>
+											<xsd:element minOccurs="0" name="unitSet" type="bo:tcuset"/>
+											<xsd:element minOccurs="0" name="drawingNumber" type="bo:tcmcs.str30"/>
+											<xsd:element minOccurs="0" name="material" type="bo:tcdscb"/>
+											<xsd:element minOccurs="0" name="size" type="bo:tcdscc"/>
+											<xsd:element minOccurs="0" name="standard" type="bo:tcdscb"/>
+											<xsd:element minOccurs="0" name="selectionCode" type="bo:tccsel"/>
+											<xsd:element minOccurs="0" name="technicalCoordinator" type="bo:tcemno"/>
+											<xsd:element minOccurs="0" name="engineer" type="bo:tcemno"/>
+											<xsd:element minOccurs="0" name="purchaseUnit" type="bo:tccuni"/>
+											<xsd:element minOccurs="0" name="purchasePriceUnit" type="bo:tccuni"/>
+											<xsd:element minOccurs="0" name="salesUnit" type="bo:tccuni"/>
+											<xsd:element minOccurs="0" name="salesPriceUnit" type="bo:tccuni"/>
+											<xsd:element minOccurs="0" name="conversionFactor" type="bo:tcqiv1"/>
+											<xsd:element minOccurs="0" name="creationDate" nillable="true" type="xsd:dateTime"/>
+											<xsd:element minOccurs="0" name="revisionDescription" type="bo:tcdsca"/>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="Note">
+												<xsd:complexType>	
+													<xsd:simpleContent>										
+														<xsd:extension base="xsd:string">
+															<xsd:attribute name="type" type="bo:tcmcs.str100" use="optional"/>
+															<xsd:attribute name="languageID" type="bo:tcmcs.str10" use="optional"/>
+														</xsd:extension>
+													</xsd:simpleContent>										
+												</xsd:complexType>						
+											</xsd:element>
+											<xsd:element maxOccurs="unbounded" minOccurs="0" name="alternativeItem">
+												<xsd:complexType>	
+													<xsd:simpleContent>										
+														<xsd:extension base="xsd:string">
+															<xsd:attribute name="action" type="bo:tcmcs.str10" use="optional"/>
+														</xsd:extension>
+													</xsd:simpleContent>										
+												</xsd:complexType>						
+											</xsd:element>
+											<xsd:element minOccurs="0" name="alternativeItemRevision" type="bo:tiedm.revi"/>
+										</xsd:sequence>
+									</xsd:complexType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="processItemDataResponseType">
+				<xsd:sequence>
+					<xsd:element minOccurs="0" name="DataArea">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element maxOccurs="unbounded" minOccurs="0" name="Item_VAL">
+									<xsd:complexType>
+										<xsd:sequence>
+											<xsd:element minOccurs="0" name="ItemID">				
+												<xsd:complexType>
+													<xsd:sequence>
+														<xsd:element minOccurs="1" name="ID" type="bo:tcitem"/>
+													</xsd:sequence>
+												</xsd:complexType>				
+											</xsd:element>									
+										</xsd:sequence>
+									</xsd:complexType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element minOccurs="0" name="InformationArea" type="bo:InformationArea"/>					
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="ActivationType">
+				<xsd:sequence>
+					<xsd:element minOccurs="0" name="username" type="xsd:string"/>
+					<xsd:element minOccurs="0" name="password" type="xsd:string"/>
+					<xsd:element minOccurs="0" name="company" type="xsd:int"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:element name="Activation" type="bo:ActivationType">
+  </xsd:element>
+			<xsd:element name="Result" type="bo:Message">
+  </xsd:element>	
+			<xsd:complexType name="InformationArea">
+				<xsd:sequence>
+					<xsd:element maxOccurs="unbounded" name="Message" type="bo:InformationMessage"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="Message">
+				<xsd:sequence>
+					<xsd:element minOccurs="0" name="messageIndex" type="xsd:integer"/>
+					<xsd:element name="messageCode" type="xsd:string"/>
+					<xsd:element name="messageType">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="Error"/>
+								<xsd:enumeration value="Warning"/>
+								<xsd:enumeration value="Information"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+					<xsd:element name="messageText" type="xsd:string"/>
+					<xsd:element name="messageSource" type="xsd:string"/>
+					<xsd:element minOccurs="0" name="MessageDetails">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element maxOccurs="unbounded" name="Message" type="bo:DetailMessage"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element minOccurs="0" name="messageCorrectiveAction" type="xsd:string"/>
+					<xsd:choice>
+						<xsd:element minOccurs="0" name="messageAdditionalHelpText" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="messageAdditionalHelpURI" type="xsd:anyURI"/>
+					</xsd:choice>
+					<xsd:element minOccurs="0" name="MessageReference">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="messageReferenceType" type="xsd:string"/>
+								<xsd:element name="messageReferenceInfo" type="xsd:anyType"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="DetailMessage">
+				<xsd:complexContent>
+					<xsd:extension base="bo:Message">
+						<xsd:attribute name="ID" type="xsd:ID" use="optional"/>
+					</xsd:extension>
+				</xsd:complexContent>
+			</xsd:complexType>
+			<xsd:complexType name="InformationMessage">
+				<xsd:complexContent>
+					<xsd:extension base="bo:Message">
+						<xsd:attribute name="ID" type="xsd:ID" use="required"/>
+					</xsd:extension>
+				</xsd:complexContent>
+			</xsd:complexType>
+			<xsd:complexType name="FilterType">
+				<xsd:choice>
+					<xsd:element name="LogicalExpression" type="bo:LogicalExpressionType"/>
+					<xsd:element name="ComparisonExpression" type="bo:ComparisonExpressionType"/>
+				</xsd:choice>
+			</xsd:complexType>
+			<xsd:complexType name="LogicalExpressionType">
+				<xsd:sequence>
+					<xsd:element name="logicalOperator">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="or"/>
+								<xsd:enumeration value="and"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+					<xsd:choice maxOccurs="unbounded" minOccurs="2">
+						<xsd:element maxOccurs="unbounded" name="LogicalExpression" type="bo:LogicalExpressionType"/>
+						<xsd:element maxOccurs="unbounded" name="ComparisonExpression" type="bo:ComparisonExpressionType"/>
+					</xsd:choice>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="ComparisonExpressionType">
+				<xsd:sequence>
+					<xsd:element name="comparisonOperator">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="le"/>
+								<xsd:enumeration value="lt"/>
+								<xsd:enumeration value="ge"/>
+								<xsd:enumeration value="gt"/>
+								<xsd:enumeration value="ne"/>
+								<xsd:enumeration value="eq"/>
+								<xsd:enumeration value="like"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+					<xsd:choice>
+						<xsd:element name="attributeName" type="bo:filterAttributeListDT"/>
+						<xsd:element name="emptyValue" type="bo:EmptyValueType"/>
+						<xsd:element name="instanceValue" type="xsd:string"/>
+					</xsd:choice>
+					<xsd:choice>
+						<xsd:element name="attributeName" type="bo:filterAttributeListDT"/>
+						<xsd:element name="emptyValue" type="bo:EmptyValueType"/>
+						<xsd:element name="instanceValue" type="xsd:string"/>
+					</xsd:choice>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="EmptyValueType"/>
+			<xsd:simpleType name="filterAttributeListDT">
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="Item_VAL.ItemID.ID"/>
+					<xsd:enumeration value="Item_VAL.description"/>
+					<xsd:enumeration value="Item_VAL.description.languageID"/>
+					<xsd:enumeration value="Item_VAL.revision"/>
+					<xsd:enumeration value="Item_VAL.itemGroup"/>
+					<xsd:enumeration value="Item_VAL.itemType"/>
+					<xsd:enumeration value="Item_VAL.inventoryUnit"/>
+					<xsd:enumeration value="Item_VAL.productType"/>
+					<xsd:enumeration value="Item_VAL.productLine.ID"/>
+					<xsd:enumeration value="Item_VAL.productLine.lineDescription"/>
+					<xsd:enumeration value="Item_VAL.productClass.ID"/>
+					<xsd:enumeration value="Item_VAL.productClass.classDescription"/>
+					<xsd:enumeration value="Item_VAL.purchaseStatisticsGroup"/>
+					<xsd:enumeration value="Item_VAL.sourceItem"/>
+					<xsd:enumeration value="Item_VAL.signal"/>
+					<xsd:enumeration value="Item_VAL.commodityCode"/>
+					<xsd:enumeration value="Item_VAL.commodityCodeUS"/>
+					<xsd:enumeration value="Item_VAL.commodityCodeCH"/>
+					<xsd:enumeration value="Item_VAL.weight"/>
+					<xsd:enumeration value="Item_VAL.weightUnit"/>
+					<xsd:enumeration value="Item_VAL.unitSet"/>
+					<xsd:enumeration value="Item_VAL.drawingNumber"/>
+					<xsd:enumeration value="Item_VAL.material"/>
+					<xsd:enumeration value="Item_VAL.size"/>
+					<xsd:enumeration value="Item_VAL.standard"/>
+					<xsd:enumeration value="Item_VAL.selectionCode"/>
+					<xsd:enumeration value="Item_VAL.technicalCoordinator"/>
+					<xsd:enumeration value="Item_VAL.engineer"/>
+					<xsd:enumeration value="Item_VAL.purchaseUnit"/>
+					<xsd:enumeration value="Item_VAL.purchasePriceUnit"/>
+					<xsd:enumeration value="Item_VAL.salesUnit"/>
+					<xsd:enumeration value="Item_VAL.salesPriceUnit"/>
+					<xsd:enumeration value="Item_VAL.conversionFactor"/>
+					<xsd:enumeration value="Item_VAL.creationDate"/>
+					<xsd:enumeration value="Item_VAL.revisionDescription"/>
+					<xsd:enumeration value="Item_VAL.Note"/>
+					<xsd:enumeration value="Item_VAL.Note.type"/>
+					<xsd:enumeration value="Item_VAL.Note.languageID"/>
+					<xsd:enumeration value="Item_VAL.alternativeItem"/>
+					<xsd:enumeration value="Item_VAL.alternativeItem.action"/>
+					<xsd:enumeration value="Item_VAL.alternativeItemRevision"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:complexType name="SelectionType">
+				<xsd:sequence>
+					<xsd:element maxOccurs="unbounded" name="selectionAttribute">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="*"/>	
+								<xsd:enumeration value="Item_VAL.*"/>
+								<xsd:enumeration value="Item_VAL.ItemID.*"/>
+								<xsd:enumeration value="Item_VAL.ItemID.ID"/>
+								<xsd:enumeration value="Item_VAL.description"/>
+								<xsd:enumeration value="Item_VAL.revision"/>
+								<xsd:enumeration value="Item_VAL.itemGroup"/>
+								<xsd:enumeration value="Item_VAL.itemType"/>
+								<xsd:enumeration value="Item_VAL.inventoryUnit"/>
+								<xsd:enumeration value="Item_VAL.productType"/>
+								<xsd:enumeration value="Item_VAL.productLine.*"/>
+								<xsd:enumeration value="Item_VAL.productLine.ID"/>
+								<xsd:enumeration value="Item_VAL.productLine.lineDescription"/>
+								<xsd:enumeration value="Item_VAL.productClass.*"/>
+								<xsd:enumeration value="Item_VAL.productClass.ID"/>
+								<xsd:enumeration value="Item_VAL.productClass.classDescription"/>
+								<xsd:enumeration value="Item_VAL.purchaseStatisticsGroup"/>
+								<xsd:enumeration value="Item_VAL.sourceItem"/>
+								<xsd:enumeration value="Item_VAL.signal"/>
+								<xsd:enumeration value="Item_VAL.commodityCode"/>
+								<xsd:enumeration value="Item_VAL.commodityCodeUS"/>
+								<xsd:enumeration value="Item_VAL.commodityCodeCH"/>
+								<xsd:enumeration value="Item_VAL.weight"/>
+								<xsd:enumeration value="Item_VAL.weightUnit"/>
+								<xsd:enumeration value="Item_VAL.unitSet"/>
+								<xsd:enumeration value="Item_VAL.drawingNumber"/>
+								<xsd:enumeration value="Item_VAL.material"/>
+								<xsd:enumeration value="Item_VAL.size"/>
+								<xsd:enumeration value="Item_VAL.standard"/>
+								<xsd:enumeration value="Item_VAL.selectionCode"/>
+								<xsd:enumeration value="Item_VAL.technicalCoordinator"/>
+								<xsd:enumeration value="Item_VAL.engineer"/>
+								<xsd:enumeration value="Item_VAL.purchaseUnit"/>
+								<xsd:enumeration value="Item_VAL.purchasePriceUnit"/>
+								<xsd:enumeration value="Item_VAL.salesUnit"/>
+								<xsd:enumeration value="Item_VAL.salesPriceUnit"/>
+								<xsd:enumeration value="Item_VAL.conversionFactor"/>
+								<xsd:enumeration value="Item_VAL.creationDate"/>
+								<xsd:enumeration value="Item_VAL.revisionDescription"/>
+								<xsd:enumeration value="Item_VAL.Note"/>
+								<xsd:enumeration value="Item_VAL.alternativeItem"/>
+								<xsd:enumeration value="Item_VAL.alternativeItemRevision"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:simpleType name="processingScope">
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="not_applicable"/>
+					<xsd:enumeration value="request"/>
+					<xsd:enumeration value="business_entity"/>
+					<xsd:enumeration value="business_entity_component"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="actionType">
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="create"/>
+					<xsd:enumeration value="createOrChange"/>
+					<xsd:enumeration value="change"/>
+					<xsd:enumeration value="delete"/>
+					<xsd:enumeration value="unchanged"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcitem">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="47"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcmcs.str10">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="10"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tiedm.revi">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="6"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tccitg">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="6"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tckitm_mandatory">
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="purchase"/>
+					<xsd:enumeration value="manufacture"/>
+					<xsd:enumeration value="generic"/>
+					<xsd:enumeration value="cost"/>
+					<xsd:enumeration value="service"/>
+					<xsd:enumeration value="subcontracting"/>
+					<xsd:enumeration value="list"/>
+					<xsd:enumeration value="tool"/>
+					<xsd:enumeration value="equipment"/>
+					<xsd:enumeration value="engineering"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tccuni">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="3"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcctyp">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="3"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcmcs.cpln">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="6"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcdsca">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="120"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcmcs.cpcl">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="6"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tccsig">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="3"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcccde">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="25"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcwght">
+				<xsd:restriction base="xsd:decimal">
+					<xsd:totalDigits value="19"/>
+					<xsd:fractionDigits value="4"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcuset">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="6"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcmcs.str30">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcdscb">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="120"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcdscc">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="120"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tccsel">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="3"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcemno">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="9"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcqiv1">
+				<xsd:restriction base="xsd:decimal">
+					<xsd:totalDigits value="19"/>
+					<xsd:fractionDigits value="4"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="tcmcs.str100">
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="100"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:schema>

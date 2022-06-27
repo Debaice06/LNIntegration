@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><!--File EAI_WSDL_ITEM_Rx/com/infor/www/businessinterface/billofmaterialval/EAI_BillOfMaterial_VAL_Rx.wsdl, application PDM_TO_LN_Rx--><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="BillOfMaterial_VAL" targetNamespace="http://www.infor.com/businessinterface/BillOfMaterial_VAL" xmlns:bo="http://www.infor.com/businessinterface/BillOfMaterial_VAL" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <generatedMXSD location="EAI_BillOfMaterial_VAL_Rx_InlineSchema1.mxsd"/>
+        <binding hasEncoding="false" imported="true" name="BillOfMaterial_VALSoapBinding" originalBindingStyle="rpc"/>
+        <generatedMXSD location="EAI_BillOfMaterial_VAL_Rx.mxsd"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+
+	<wsdl:types>
+			
+        	<xsd:schema targetNamespace="http://www.infor.com/businessinterface/BillOfMaterial_VAL">
+<xsd:include schemaLocation="https://eaibt.valmet.com:7843/EAI/Item_VAL/Rx/processItemBOMData?xsd=xsd0"/>
+    </xsd:schema>
+    </wsdl:types>
+	
+	<wsdl:message name="processItemBOMDataRequest">
+		<wsdl:part name="processItemBOMDataRequest" type="bo:processItemBOMDataRequestType"/>
+	</wsdl:message>
+	<wsdl:message name="processItemBOMDataResponse">
+		<wsdl:part name="processItemBOMDataResponse" type="bo:processItemBOMDataResponseType"/>
+	</wsdl:message>
+	<wsdl:message name="Result">
+		<wsdl:part element="bo:Result" name="Result"/>
+	</wsdl:message>
+	<wsdl:message name="Header">
+		<wsdl:part element="bo:Activation" name="Activation"/>
+	</wsdl:message>
+
+	<wsdl:portType name="BillOfMaterial_VAL">
+		<wsdl:operation name="processItemBOMData">
+			<wsdl:input message="bo:processItemBOMDataRequest"/>
+			<wsdl:output message="bo:processItemBOMDataResponse"/>
+			<wsdl:fault message="bo:Result" name="FaultName"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	
+	<wsdl:binding name="BillOfMaterial_VALSoapBinding" type="bo:BillOfMaterial_VAL">
+		<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="processItemBOMData">
+			<soap:operation soapAction=""/>						
+			<wsdl:input>
+				<soap:body namespace="http://www.infor.com/businessinterface/BillOfMaterial_VAL" use="literal"/>
+				<soap:header message="bo:Header" part="Activation" use="literal"/>						
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body namespace="http://www.infor.com/businessinterface/BillOfMaterial_VAL" use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="FaultName">
+				<soap:fault name="FaultName" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="BillOfMaterial_VALService">
+		<wsdl:port binding="bo:BillOfMaterial_VALSoapBinding" name="BillOfMaterial_VALSoapPort">
+			<soap:address location="https://eaibt.valmet.com:7843/EAI/Item_VAL/Rx/processItemBOMData"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

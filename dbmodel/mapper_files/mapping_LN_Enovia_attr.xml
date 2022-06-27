@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+    <objects>
+        <object type="CreateAssembly">
+            <attributes>
+                <attribute isProperty="false">
+                    <source-name>WEIGHT</source-name>
+                    <destination-name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</destination-name>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>RefItem</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_ReferenceItem</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCode</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeUS</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_US</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeCN</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH].value</selectable>
+                </attribute>
+            </attributes>
+        </object>
+        <object type="CreateMaterial">
+            <attributes>
+                <attribute isProperty="false">
+                    <source-name>WEIGHT</source-name>
+                    <destination-name>DELFmiFunctionPPRContinuousReference.V_EstimatedWeight</destination-name>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>RefItem</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_ReferenceItem</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCode</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeUS</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_US</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeCN</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH].value</selectable>
+                </attribute>
+            </attributes>
+        </object>
+        <object type="ElementaryEndItem">
+            <attributes>
+                <attribute isProperty="false">
+                    <source-name>WEIGHT</source-name>
+                    <destination-name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</destination-name>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>RefItem</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_ReferenceItem</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCode</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeUS</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_US</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeCN</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH].value</selectable>
+                </attribute>
+            </attributes>
+        </object>
+        <object type="ProcessContinuousCreateMaterial">
+            <attributes>
+                <attribute isProperty="false">
+                    <source-name>WEIGHT</source-name>
+                    <destination-name>DELFmiFunctionPPRContinuousReference.V_EstimatedWeight</destination-name>
+                    <selectable>attribute[DELFmiFunctionPPRContinuousReference.V_EstimatedWeight].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>RefItem</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_ReferenceItem</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCode</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeUS</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_US</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US].value</selectable>
+                </attribute>
+                <attribute isProperty="false">
+                    <source-name>CommodityCodeCN</source-name>
+                    <destination-name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</destination-name>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH].value</selectable>
+                </attribute>
+            </attributes>
+        </object>
+    </objects>
+</mapping>

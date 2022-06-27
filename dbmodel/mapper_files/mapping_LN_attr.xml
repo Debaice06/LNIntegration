@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+    <objects>
+        <object type="CreateAssembly">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>					
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>LEG_DrawingNumber.LEG_Drawing_Number</source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[LEG_DrawingNumber.LEG_Drawing_Number]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+                <!--                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDM.MBOM_PDM_Drawing_Number</source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDM.MBOM_PDM_Drawing_Number]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>	-->
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>			                               
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+			   <!--            <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDM.MBOM_Material</source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDM.MBOM_Material]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> -->
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDM.MBOM_ItemSize</source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDM.MBOM_ItemSize]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>   -->
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <!--                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDM.MBOM_PDM_Purchase_Statistic_Group</source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDM.MBOM_PDM_Purchase_Statistic_Group]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                          -->
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                              
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <!--                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDM.MBOM_UnitSet</source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDM.MBOM_UnitSet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                -->
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>   
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <!--<attribute isProperty="false">
+                    <source_name>MBOM_MBOMReference.MBOM_DeliberableNo</source_name>
+                    <destination_name>Contract Deliverable</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMReference.MBOM_DeliberableNo]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->
+            </attributes>
+        </object>
+        
+        <object type="CreateMaterial">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>LEG_DrawingNumber.LEG_Drawing_Number</source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[LEG_DrawingNumber.LEG_Drawing_Number]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                               
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                             
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>   				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <!--<attribute isProperty="false">
+                    <source_name>MBOM_MBOMReference.MBOM_DeliberableNo</source_name>
+                    <destination_name>Contract Deliverable</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMReference.MBOM_DeliberableNo]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->
+            </attributes>
+        </object>
+        
+        <object type="ProcessContinuousCreateMaterial">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>	
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                               
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRContinuousReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRContinuousReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                             
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMContReference.MBOM_Inventory_Unit</source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMContReference.MBOM_Inventory_Unit]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+					<attribute isProperty="false">
+                    <source_name>MBOM_MBOMContReference.MBOM_Inventory_Unit</source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMContReference.MBOM_Inventory_Unit]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <!--<attribute isProperty="false">
+                    <source_name>MBOM_MBOMReference.MBOM_DeliberableNo</source_name>
+                    <destination_name>Contract Deliverable</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMReference.MBOM_DeliberableNo]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->
+            </attributes>
+        </object>
+        
+        <object type="ProcessContinuousProvide">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>					
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                               
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRContinuousReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRContinuousReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                             
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMContReference.MBOM_Inventory_Unit</source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMContReference.MBOM_Inventory_Unit]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMContReference.MBOM_Inventory_Unit</source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMContReference.MBOM_Inventory_Unit]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>   				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <!--<attribute isProperty="false">
+                    <source_name>MBOM_MBOMReference.MBOM_DeliberableNo</source_name>
+                    <destination_name>Contract Deliverable</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMReference.MBOM_DeliberableNo]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->
+            </attributes>
+        </object>
+        
+        <object type="ElementaryEndItem">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>					
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                              
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                              
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>		
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </object>
+        
+        <object type="Provide">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                                
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                             
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </object>
+        
+        <object type="VAL_VALComponentMaterial">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		<attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>					
+		<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                               
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRContinuousReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRContinuousReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                             
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMContReference.MBOM_Inventory_Unit</source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMContReference.MBOM_Inventory_Unit]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		<attribute isProperty="false">
+                    <source_name>MBOM_MBOMContReference.MBOM_Inventory_Unit</source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMContReference.MBOM_Inventory_Unit]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>   				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		        <attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <!--<attribute isProperty="false">
+                    <source_name>MBOM_MBOMReference.MBOM_DeliberableNo</source_name>
+                    <destination_name>Contract Deliverable</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMReference.MBOM_DeliberableNo]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->
+            </attributes>
+        </object> 
+        <object type="DELFmiProcessPrerequisitePort">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMReference.MBOM_Item_Purchasing_Text_in_english</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMReference.MBOM_Item_Purchasing_Text_in_english]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                               
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>Weight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                               
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+				<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>   				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </object>
+        
+        <object type="VAL_VALComponent">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name>owner</source_name>
+                    <destination_name>Technical Coordinator</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>owner</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>TD_TechnicalDesignation.TD_TechnicalDesignation</source_name>
+                    <destination_name>Technical Designation</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[TD_TechnicalDesignation.TD_TechnicalDesignation]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText</source_name>
+                    <destination_name>Item Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITMTEXTS_ItemCommonText.ITMTEXTS_ItemCommonText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		        <attribute isProperty="false">
+                    <source_name>ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText</source_name>
+                    <destination_name>Item Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ITEMTEXTS_PurchasingText.ITEMTEXTS_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		        <attribute isProperty="false">
+                    <source_name>PLMEntity.V_description</source_name>
+                    <destination_name>Item Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMEntity.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_EU</source_name>
+                    <destination_name>Commodity Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_EU]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_US</source_name>
+                    <destination_name>Commodity Code US</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_US]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_Commodity_Code_CH</source_name>
+                    <destination_name>Commodity Code CH</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_Commodity_Code_CH]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Number</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>  
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Drawing Revision</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>				                                
+                <attribute isProperty="true">
+                    <source_name>project</source_name>
+                    <destination_name>Product Class</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>project</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>DELFmiFunctionPPRCreateReference.V_EstimatedWeight</source_name>
+                    <destination_name>Weight</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELFmiFunctionPPRCreateReference.V_EstimatedWeight]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>WeightUnit</source_name>
+                    <destination_name>WeightUnit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[Not Available Yet]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Material</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Size</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                                             
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>PSG</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <!--<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Item Type</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->                
+                <attribute isProperty="true">
+                    <source_name>originated</source_name>
+                    <destination_name>Creation Date</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>originated</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Unit Set</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Inventory Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		<attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name>Purchase Unit</destination_name>
+                    <data-type>String</data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_ReferenceItem</source_name>
+                    <destination_name>Source Item</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_ReferenceItem]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>                
+                <attribute isProperty="false">
+                    <source_name>PLMReference.V_versionComment</source_name>
+                    <destination_name>Revision Description</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMReference.V_versionComment]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+		<attribute isProperty="false">
+                    <source_name>DELAsmUnitRefRequired.V_SerialNumberRequired</source_name>
+                    <destination_name>Serial Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmUnitRefRequired.V_SerialNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+				<attribute isProperty="false">
+                    <source_name>DELAsmLotRefRequired.V_LotNumberRequired</source_name>
+                    <destination_name>Lot Number Required</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[DELAsmLotRefRequired.V_LotNumberRequired]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute> 
+				<attribute isProperty="false">
+                    <source_name>MBOM_MBOMERP.MBOM_BOM_Selection</source_name>
+                    <destination_name>Selection Code</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERP.MBOM_BOM_Selection]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </object>
+	<object type="Task">
+            <attributes>
+                <attribute isProperty="true">
+                    <source_name></source_name>
+                    <destination_name></destination_name>
+                    <data-type></data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </object>
+    </objects>
+    <relationships>
+        <relationship name="DELFmiFunctionIdentifiedInstance">
+            <attributes>
+                <attribute isProperty="false">
+                    <source_name>V_isVPLMControlled</source_name>
+                    <destination_name>suppliedBySubcontractor</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[V_isVPLMControlled]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERPInstance.MBOM_Position</source_name>
+                    <destination_name>position</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERPInstance.MBOM_Position]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>PLMInstance.V_description</source_name>
+                    <destination_name>BOM Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMInstance.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOMTEXT_PurchasingText.MBOMTEXT_PurchasingText</source_name>
+                    <destination_name>BOM Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOMTEXT_PurchasingText.MBOMTEXT_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOMTEXT_ManufacturingText.MBOMTEXT_ManufacturingText</source_name>
+                    <destination_name>BOM Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOMTEXT_ManufacturingText.MBOMTEXT_ManufacturingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <!--                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMInstance.MBOM_Set_Quantity</source_name>
+                    <destination_name>NetQuantity</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMInstance.MBOM_Set_Quantity]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>-->
+            </attributes>
+        </relationship>
+        <relationship name="ProcessInstanceContinuous">
+            <attributes>
+                <attribute isProperty="false">
+                    <source_name>V_isVPLMControlled</source_name>
+                    <destination_name>suppliedBySubcontractor</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[V_isVPLMControlled]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMERPInstance.MBOM_Position</source_name>
+                    <destination_name>position</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMERPInstance.MBOM_Position]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>PLMInstance.V_description</source_name>
+                    <destination_name>BOM Common Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[PLMInstance.V_description]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOMTEXT_PurchasingText.MBOMTEXT_PurchasingText</source_name>
+                    <destination_name>BOM Purchasing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOMTEXT_PurchasingText.MBOMTEXT_PurchasingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOMTEXT_ManufacturingText.MBOMTEXT_ManufacturingText</source_name>
+                    <destination_name>BOM Manufacturing Text</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOMTEXT_ManufacturingText.MBOMTEXT_ManufacturingText]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>ProcessInstanceContinuous.V_UsageContCoeff</source_name>
+                    <destination_name>NetQuantity</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[ProcessInstanceContinuous.V_UsageContCoeff]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDMContInstance.MBOM_Length</source_name>
+                    <destination_name>Length</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDMContInstance.MBOM_Length]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+                <attribute isProperty="false">
+                    <source_name>MBOM_MBOMPDMContInstance.MBOM_Width</source_name>
+                    <destination_name>Width</destination_name>
+                    <data-type>String</data-type>
+                    <selectable>attribute[MBOM_MBOMPDMContInstance.MBOM_Width]</selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </relationship>
+        <relationship name="Task Deliverable">
+            <attributes>
+                <attribute isProperty="false">
+                    <source_name></source_name>
+                    <destination_name></destination_name>
+                    <data-type></data-type>
+                    <selectable></selectable>
+                    <data-format></data-format>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </relationship>
+    </relationships>
+</mapping>
