@@ -29,7 +29,7 @@ public class MapperUtil {
             typeList.add(xmlMapElementObject.getType());
          });
         return typeList;
-    }
+    
     
     
     /**
